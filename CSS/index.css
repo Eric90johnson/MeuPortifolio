@@ -1,0 +1,86 @@
+body {
+    background-image: url(../imagens/pexels-andreea-ch-1076039.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;    
+}
+
+.apresentacao{
+    width: 50rem;
+    height: auto; 
+
+    
+    /* efeito vidro*/    
+    background: rgba( 255, 255, 255, 0.35 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 13.5px );
+    -webkit-backdrop-filter: blur( 13.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.apresentacao h1 {    
+    color: white;
+    
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 5px;
+    
+    text-shadow: 0.1em 0.1em 0.05em #333;
+}
+
+
+
+.apresentacao p {    
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+    text-shadow: 0.1em 0.1em 0.05em #333;
+}
+
+
+
+
+.link li {
+    color: white;
+    display: inline-block;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 5px;   
+
+    text-shadow: 0.1em 0.1em 0.05em #333;
+    text-decoration: none;     
+  }
+
+  .link li a {
+    
+    text-decoration: none
+    
+  }
+
+  .link li a:hover {
+    text-decoration: underline;
+    animation-direction: alternate;
+  }
+
+  .foto-perfil {
+    width: 320px;
+    height: 320px;
+    border-radius: 100%;      
+    margin-left: 30px;
+
+    background: rgba( 255, 255, 255, 0.35 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 13.5px );
+    -webkit-backdrop-filter: blur( 13.5px );
+    border-radius: 100%;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    
+  }
