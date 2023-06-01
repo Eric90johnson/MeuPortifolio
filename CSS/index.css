@@ -4,6 +4,8 @@ body {
     background-size: cover;
     background-position: center;
 }
+
+
 .container {
     display: flex;
     justify-content: center;
@@ -33,6 +35,8 @@ body {
     padding-bottom: 5px;
     
     text-shadow: 0.1em 0.1em 0.05em #333;
+
+    
 }
 
 
@@ -67,7 +71,7 @@ body {
 
   .link li a:hover {
     text-decoration: underline;
-    animation-direction: alternate;
+    
   }
 
   .foto-perfil {
