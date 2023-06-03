@@ -10,4 +10,4 @@ function digitacao(texto, contador) {
   }
 }
 
-digitacao("Olá, meu nome é Eric Johnson e Contruou páginas WEB.", 0);
+digitacao("Olá, meu nome é Eric Johnson e contruou páginas WEB.", 0);
