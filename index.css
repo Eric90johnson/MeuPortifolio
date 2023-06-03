@@ -27,19 +27,20 @@ body {
     border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
-.apresentacao h1 {    
+.text {    
     color: white;
     
     padding-top: 30px;
     padding-left: 30px;
     padding-bottom: 5px;
+    padding-right: 5px;
     
     text-shadow: 0.1em 0.1em 0.05em #333;
 
     white-space: pre-wrap;
 }
 
-.apresentacao p {    
+.texto {    
     color: white;
     padding-left: 30px;
     padding-right: 30px;
@@ -85,5 +86,15 @@ body {
   }
 
   /*Animação texto de apresentacao*/
+#text {
+  color: white;
+    
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 5px;
+    
+    text-shadow: 0.1em 0.1em 0.05em #333;
 
+    white-space: pre-wrap;
+}
   
