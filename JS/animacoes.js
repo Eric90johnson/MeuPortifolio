@@ -1,16 +1,24 @@
-const typing = document.querySelector('[data-js="typing"]')
+var paragrafo = document.querySelector('h1')
+var cursor = document.querySelector('.cursor')
+var texto = paragrafo.innerHTML
+var index = 0
 
-const messages = ['Olá, ', 'meu nome é Eric Johnson e construo páginas web.']
+const escrever = () => {
+  paragrafo.innerHTML = paragrafo.innerHTML.replace('|', '')
 
-let messageIndex = 0 
-let characterIndex = 0
-let currenteMessage = ''
-let currentCharacters = ''
+  if (texto.length > index) {
+    if (index == 0){
+      paragrafo.innerHTML = texto.charAt(index) 
+    } else {
+      paragrafo.innerHTML += texto.charAt(index) 
+    }
 
-const type = () => {
-    currenteMessage = messages[messageIndex]
-    currentCharacters = currenteMessage.slice(0, characterIndex++)
-    typing.textContent = currentCharacters
+    paragrafo.innerHTML += '|'
+
+    index++
+    setTimeout(escrever, 50)
+
+  } 
 }
 
-setInterval(type, 200)
+escrever()

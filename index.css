@@ -36,7 +36,7 @@ body {
     
     text-shadow: 0.1em 0.1em 0.05em #333;
 
-    
+    white-space: pre-wrap;
 }
 
 .apresentacao p {    
@@ -86,30 +86,4 @@ body {
 
   /*Animação texto de apresentacao*/
 
-  .intro {
-    display: flex;
-  }
-
-  .typing {
-    position: relative;
-    margin-left: 10px;
-  }
   
-  .typing::after {
-    content: "";
-    position: absolute;
-    width: 1px;
-    height: 55%;
-    border-right: 2px solid black;
-    right: 35px;
-    animation: blink 1s infinite ease;
-  }
-  
-  @keyframes blink {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
